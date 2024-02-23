@@ -1,20 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Manrope);
 
 body {
-    background-color: hsl(218, 23%, 16%);
-    
+    background-color: hsl(218, 23%, 16%);  
 }
 
 .inner-container {
     background-color: hsl(217, 19%, 24%);
-    width: 530px;
+    width: 70%;
     height: auto;
     border-radius: 15px;
     box-sizing: border-box;
     padding: 42px;
     position: relative;
 }
-
+.line {
+    color: hsl(150, 100%, 66%);
+    height: 1px;
+}
 .container-sm {
     position: absolute;
     top: 50%;
