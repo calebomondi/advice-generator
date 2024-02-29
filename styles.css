@@ -59,3 +59,12 @@ button:hover {
     margin-bottom: 25px;
     margin-top: 15px;
 }
+
+@media screen and (max-width:395px) {
+    .inner-container {
+        width: 95%;
+    }
+    #advice {
+        font-size: 20px;
+    }
+}
